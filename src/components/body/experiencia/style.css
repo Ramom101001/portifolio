@@ -1,0 +1,8 @@
+.experiencia {
+    height: 400px;
+    background-color: palegoldenrod;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

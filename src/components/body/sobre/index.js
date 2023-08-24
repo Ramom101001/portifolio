@@ -1,24 +1,26 @@
 import React from 'react'
 import "./sobre.css";
-import SocialMedia from '../../comp/social-media/index';
+
+import img1 from "../../../assets/voce.jpg";
 
 function Sobre() {
   return (
-    <div className="about">
+    <div className="about container">
       <div className="about-top">
 
-        <div className="about-info">
-          aaececea
-          <br/><span className="about-name">afeac</span>
-          <br/>ascaeveavea
+        <div className="about-info ">
+          <h1>Olá, meu nome é Ramom</h1>
+          <p>Tenho 21 anos e sou aprendiz em desenvolvimenento de sites. pretendo me
+            tornar um programador Front-end e ser um profissional diferenciado.
+          </p>
 
       </div>
 
         <div className="about-photo">Contato
-        <img src={require("../../../assets/voce.jpg").default}className="picture"/>
+        <img src={img1} className="picture" alt=''/>
         </div>
 
-        <SocialMedia/>
+        
 
     </div>
     

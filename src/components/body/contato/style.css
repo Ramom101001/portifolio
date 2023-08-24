@@ -1,0 +1,8 @@
+.contato {
+    height: 400px;
+    background-color: palegreen;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import "./style.css";
 
 function Contato() {
   return (
-    <div>
+    <div className='contato'>
       Página Contato
     </div>
   )

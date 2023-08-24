@@ -1,9 +1,13 @@
 import React from 'react'
+import "./style.css";
 
 function Projetos() {
   return (
-    <div>
+
+    <div className='projeto'>
+      <div className='container'>
       Página Projeto
+      </div>
     </div>
   )
 }

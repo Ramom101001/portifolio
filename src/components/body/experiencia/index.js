@@ -1,9 +1,12 @@
 import React from 'react'
+import "./style.css";
+import SocialMedia from '../../comp/social-media';
+
 
 function Expe() {
   return (
-    <div>
-      Página Experiência
+    <div className='experiencia container'> 
+      <SocialMedia/>
     </div>
   )
 }

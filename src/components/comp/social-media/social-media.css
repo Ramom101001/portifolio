@@ -1,17 +1,41 @@
 .social-contact{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 .social-icon-div{
+    width: 250px;
+    height: 250px;
     padding: 6px;
     cursor: pointer;
     margin: 6px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .social-icon{
-    height: 40px;
+    width: 100%;
+    height: auto;
+    
 
+
+}
+.about-info h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+.about-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 720px) {

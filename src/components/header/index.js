@@ -7,7 +7,7 @@ import Mobile from "./mobile/index";
 function Header() {
   const[isOpen, setIsOpen]=useState(false);
   return (
-    <div className='header'>
+    <div className='header container'>
 
       <div className='logo'>Ramom Rangel</div>
 

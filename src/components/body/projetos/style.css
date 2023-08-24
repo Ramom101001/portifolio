@@ -1,0 +1,8 @@
+.projeto {
+    height: 400px;
+    background-color: paleturquoise;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
