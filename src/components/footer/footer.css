@@ -1,0 +1,40 @@
+.footer {
+    background-color: #f4f5ff;
+    padding-top: 50px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-new__holder {
+    display: -webkit-box;
+    display: flex;
+    color: #cdcdcd;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+.contact-info p,
+.location-info p {
+    margin: 8px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.copyright-info a {
+    color: #333;
+    text-decoration: underline;
+}
