@@ -3,38 +3,59 @@
     padding-top: 50px;
 }
 
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.footer__line {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 30px;
 }
-.footer-new__holder {
-    display: -webkit-box;
+.footer__line:first-child > div{
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
     display: flex;
-    color: #cdcdcd;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.position-relative {
-    position: relative!important;
+.footer__line:last-child {
+    justify-content: center;
+    padding: 20px 0;
 }
 
-.contact-info p,
-.location-info p {
-    margin: 8px 0;
+.footer__logo__name { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.footer__logo__name p{ 
+    font-family:'Black Ops One', cursive;
+    font-weight: 900;
+    font-size: 70px;
+}
+.footer__logo__about {
+    padding-top: 20px;
+    font-size: 22px;
+}
+.footer__info p:first-child{
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer__info p{
+    font-size: 22px;
 }
 
-.contact-info a {
-    color: #333;
-    text-decoration: underline;
+.footer__social img {
+    width: 30px;
+    height: auto;
 }
+.footer__social {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+    height: 100%;
+    margin-top: auto;
 
-.copyright-info a {
-    color: #333;
-    text-decoration: underline;
 }
